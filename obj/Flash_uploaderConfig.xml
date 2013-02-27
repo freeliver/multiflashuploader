@@ -18,7 +18,7 @@
     </define>
     <source-path append="true">
       <path-element>E:\wwwroot\res\flash\flash_uploader\src</path-element>
-      <path-element>D:\workware_files\FlashDevelop\Library\AS3\classes</path-element>
+      <path-element>D:\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
   </compiler>
   <file-specs>
