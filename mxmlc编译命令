@@ -1,0 +1,2 @@
+编译命令：
+mxmlc  -static-link-runtime-shared-libraries=true -benchmark=true -creator=freeliver -contributor=freeliver -compiler.source-path=src/ src/net/freeliver/Main.as -output ../bin/flashuploader.swf
