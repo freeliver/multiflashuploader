@@ -31,7 +31,7 @@ package net.freeliver{
   import flash.net.URLVariables;
 
   /**
-    *Flash_Uploader 多文件上传组件Flash端
+    *MultiFlashUploader 多文件上传组件Flash端
     *@author freeliver<freeliver204@gmail.com>
     *@lastModifiedDate 2010-11-23 13:57
   */
@@ -212,7 +212,7 @@ package net.freeliver{
 
     protected function initFileReferenceList():void{
       this._fileReferList =  new FileReferenceList();
-      this._fileFilter  = new Array(new FileFilter('HappyLife文库支持全部格式', '*.doc;*.DOC;*.DOCX;*.PPT;*.PPTX;*.XLS;*.XLSX;*.POT;*.docx;*.ppt;*.pptx;*.xls;*.xlsx;*.pot;*.potx;*.POTX;*.PPS;*.RTF;*.pps;*.rtf;*.gif;*.GIF;*.JPG;*.jpeg;*.JPEG;*.jpg;*.WPS;*.ET;*.DPS;*.wps;*.et;*.dps;*.pdw;*.PDW;*.PXL;*.TXT;*.XML;*.EML;*.PDF;*.PNG;*.pxl;*.psw;*.txt;*.xml;*.eml;*.pdf;*.png'));
+      this._fileFilter  = new Array(new FileFilter('上传客户端支持全部格式', '*.doc;*.DOC;*.DOCX;*.PPT;*.PPTX;*.XLS;*.XLSX;*.POT;*.docx;*.ppt;*.pptx;*.xls;*.xlsx;*.pot;*.potx;*.POTX;*.PPS;*.RTF;*.pps;*.rtf;*.gif;*.GIF;*.JPG;*.jpeg;*.JPEG;*.jpg;*.WPS;*.ET;*.DPS;*.wps;*.et;*.dps;*.pdw;*.PDW;*.PXL;*.TXT;*.XML;*.EML;*.PDF;*.PNG;*.pxl;*.psw;*.txt;*.xml;*.eml;*.pdf;*.png'));
 	  this._fileFilter.push(new FileFilter('WPS文档', '*.wps;*.et;*.dps;*.DPS;*.ET;*.WPS'));
 	  this._fileFilter.push(new FileFilter('图片系列', '*.gif;*.jpg;*.png;*.PNG;*.GIF;*.JPEG;*.JPG;*.jpeg'));
 	  this._fileFilter.push(new FileFilter('Office系列', '*.doc;*.DOC;*.DOCX;*.PPT;*.PPTX;*.XLS;*.XLSX;*.POT;*.docx;*.ppt;*.pptx;*.xls;*.xlsx;*.pot;*.POTX;*.PPS;*.RTF;*.potx;*.pps;*.rtf'));
